@@ -1,1 +1,3 @@
-export { test } from './test';
+export { health } from './health';
+export { auth } from './auth';
+

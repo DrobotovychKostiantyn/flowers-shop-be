@@ -1,8 +1,8 @@
 import dg from 'debug';
 
-const debug = dg('router:test');
+const debug = dg('router:health');
 
-export const test = (req, res) => {
+export const health = (req, res) => {
     debug(`${req.method} - ${req.originalUrl}`);
 
     try {
