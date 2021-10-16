@@ -15,7 +15,7 @@ app.use(cors())
 
 // Routers
 app.use('/common', routers.health);
-app.use('/api', routers.auth);
+app.use('/api/auth', routers.auth);
 
 
 export { app };
